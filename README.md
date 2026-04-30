@@ -11,7 +11,7 @@
 - 一个可复用的 Codex skill
 - 一组 PowerShell / Python helper 脚本
 - 一套脱敏测试用例
-- 一组脱敏后的定量指标与可视化
+- 一组脱敏后的定量指标
 
 适合的用户包括：
 
@@ -68,14 +68,8 @@
 - `metrics/`
   脱敏后的统计数据，包括历史排查计数、环境画像、测试结果。
 
-- `figures/`
-  由 `metrics/` 渲染得到的图表。
-
 - `scripts/`
-  仓库级辅助脚本，例如指标可视化渲染。
-
-- `dist/`
-  供打包分享的压缩文件。
+  仓库级辅助脚本。
 
 ## 包含的 helper
 
@@ -177,17 +171,6 @@ powershell -ExecutionPolicy Bypass -File .\tests\run_tests.ps1
 
 因此“预期失败被成功复现”应当被视为测试通过。
 
-## 如何渲染图表
-
-```powershell
-python .\scripts\render_metrics.py
-```
-
-生成：
-
-- `figures/incident_counts.png`
-- `figures/test_outcomes.png`
-
 ## 定量指标说明
 
 ### `metrics/incident_counts.csv`
@@ -235,8 +218,7 @@ python .\scripts\render_metrics.py
 - 明确的问题定义
 - 可执行 helper
 - 可执行测试
-- 脱敏后的数据与图
-- 打包归档
+- 脱敏后的数据
 
 如果你想继续完善，可以继续增加：
 

@@ -1,0 +1,7 @@
+field,value
+powershell_version,5.1
+active_code_page,936
+console_output_encoding,utf-8
+dotnet_default_encoding,gb2312
+powershell_output_encoding,us-ascii
+python_transport_risk,inline_native_pipe

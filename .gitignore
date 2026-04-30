@@ -1,0 +1,4 @@
+tests/artifacts/runtime/
+tests/artifacts/*.tmp
+__pycache__/
+*.pyc

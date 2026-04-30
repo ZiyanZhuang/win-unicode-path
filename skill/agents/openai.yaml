@@ -1,0 +1,7 @@
+interface:
+  display_name: "Windows Unicode Path Ops"
+  short_description: "Prevent and diagnose Unicode path failures in Windows PowerShell and Python."
+  default_prompt: "Use $windows-unicode-path-ops to run a Windows task safely when file paths contain Chinese or other non-ASCII characters."
+
+policy:
+  allow_implicit_invocation: true

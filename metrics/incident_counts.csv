@@ -1,0 +1,4 @@
+metric_name,count,notes
+display_mojibake_hits,71,"Occurrences of a stable mojibake marker found in local Codex session logs"
+invalid_argument_or_question_mark_hits,299,"Occurrences of `Invalid argument` or `??`-style non-ASCII path corruption in local session logs"
+broad_path_related_matches,10928,"Broad upper-bound match count for path-encoding investigation terms; includes non-error mentions"

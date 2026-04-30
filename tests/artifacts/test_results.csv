@@ -1,0 +1,5 @@
+﻿"test_name","passed","details"
+"safe_python_roundtrip","True","created result.json via real script and arguments"
+"utf8_nobom_write","True","first_bytes=112,108,97,105"
+"utf8_json_write_and_read","True","explicit UTF-8 read preserved unicode text"
+"inline_python_pipe_negative_control","True","expected failure reproduced"

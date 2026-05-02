@@ -1,6 +1,6 @@
 # Windows Unicode Path Ops
 
-这是一个面向 **Windows + PowerShell 5.1 + Python + 中文路径** 场景的公开分享包，目标是减少非 ASCII 路径导致的：
+这是一个面向Codex 使用者面临中文路径乱码错误的解决方案，具体聚焦 **Windows + PowerShell 5.1 + Python + 中文路径** 场景的公开分享包，目标是减少非 ASCII 路径导致的：
 
 - 中文路径显示乱码
 - 路径被替换成 `??`

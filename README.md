@@ -210,19 +210,3 @@ powershell -ExecutionPolicy Bypass -File .\tests\run_tests.ps1
 
 测试运行时使用的是通用 Unicode 目录名，而不是用户私有路径。
 
-## 适合分享到 GitHub 的原因
-
-这个仓库已经具备公开分享所需的基本要素：
-
-- 中文 README
-- 明确的问题定义
-- 可执行 helper
-- 可执行测试
-- 脱敏后的数据
-
-如果你想继续完善，可以继续增加：
-
-- 英文 README
-- GitHub Actions Windows 测试
-- 更多语言路径样例（如日文、韩文、emoji）
-- 针对 PowerShell 7 的对照测试
